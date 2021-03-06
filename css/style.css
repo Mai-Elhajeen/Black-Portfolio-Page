@@ -1,0 +1,259 @@
+/* Font family */
+@font-face{
+    src: url(../fonts/Roboto-Regular.ttf);
+    font-family: 'Roboto';
+}
+/* ########################################################### */
+/* All */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+body{
+    background: url(../img/pexels-pixabay-356147.jpg) no-repeat;
+    background-size: cover;
+    font-family: 'Roboto';
+}
+/* ########################################################## */
+/* Start header */
+#header{
+    width: 100%;
+    padding: 25px 0;
+    height: 70px;
+}
+#header .head{
+    float: left;
+    width: 20%;
+    font-size: 15px;
+    text-align: center;
+    line-height: 1.5;
+}
+#header .head .logo-name{
+    color: #ffffff;
+}
+#header .navbar{
+    float: left;
+    width: 60%;
+    line-height: 2.9;
+    text-transform: uppercase;
+    font-size: 18px;
+    text-align: center;
+}
+#header .navbar .link{
+    padding: 0 20px;
+    color: #fff;
+    transition: all .3s ease-in-out;
+}
+#header .navbar .link:hover{
+    color: #9a9898;
+}
+.icon{
+    color: #fff;
+    line-height: 3;
+    font-size: 22px;
+}
+/* End Header */
+/* ################################################### */
+/* start section chirse */
+.content{
+    width: 100%;
+    height: 350px;
+    padding: 120px 0 0 100px;
+    margin-bottom: 20px;
+}
+.continer{
+    width: 100%;
+    height: 100%;
+}
+.boxes{
+    width: 100%;
+}
+/* all-contant */
+.boxes .all-contant{
+    float: left;
+    width: 47.5%;
+}
+.border-left{
+    border-left: 5px solid #fff;
+    color: #fff;
+    border-radius: 3px;
+}
+.title{
+    text-transform: capitalize;
+    font-size: 55px;
+    padding-left: 20px;
+}
+.para{
+    font-size: 15px;
+    padding-left: 20px;
+    letter-spacing: 1px;
+    color: #9a9898;
+    font-weight: bold;
+}
+.btn{
+    width: 150px;
+    height: 45px;
+    border-radius: 25px;
+    margin: 30px;
+    background: none;
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 18px;
+    transition: all .3s ease-in-out;
+}
+.btn:focus{
+    outline: none;
+}
+.btn:hover{
+    color: #000;
+    background-color: #fff;
+}
+/* valuation */
+.boxes .valuation{
+    color: #fff;
+    float: left;
+    width: 44.5%;
+    padding-left: 150px;
+}
+.tags{
+    width: 100%;
+    height: 80px;
+}
+.one-num{
+    padding: 10px 0;
+    font-size: 40px;
+    float: left;
+    width: 50%;
+}
+.six-num{
+    font-size: 23px;
+    color: #9a9898;
+}
+.icon-chevron{
+    float: left;
+    width: 50%;
+    line-height: 2;
+}
+.chevron{
+    font-size: 35px;
+    color: #9a9898;
+}
+.num{
+    display: inline;
+    padding: 0 20px;
+    font-size: 32px;
+}
+.range{
+    width: 295px;
+    height: 10px;
+    background: none;
+    border: 1px solid #fff;
+    border-radius: 25px;
+}
+.result{
+    width: 85px;
+    height: 8px;
+    background-color: #fff;
+    border: 1px solid #fff;
+    border-radius: 25px;
+}
+.view{
+    text-transform: capitalize;
+    font-size: 25px;
+    line-height: 4;
+}
+/*line-dash  */
+.boxes .line-dash{
+    float: left;
+    width: 8%;
+}
+.menue{
+    width: 5px;
+    height: 35px;
+    background-color: #9a9898;
+    border: 1px solid #9a9898;
+    border-radius: 25px;
+    display: block;
+    margin: 20px 0;
+    transition: all .3s ease-in-out;
+}
+.menue:hover{
+    background-color: #fff;
+    border: 1px solid #ffff;
+}
+/* End section main */
+/* ########################################################## */
+/* start footer  */
+footer{
+    color: #fff;
+    text-align: center;
+    width: 750px;
+    margin: auto;
+    height: 200px;
+    background: rgb(14 14 14 / 40%);
+    border-radius: 25px;
+    margin-bottom: 50px;
+}
+footer .continer{
+    height: 100%;
+    padding: 20px 30px;
+}
+.nav-footer{
+    text-align: left;
+    text-transform: uppercase;
+}
+.social{
+    display: inline;
+    color: #9a9898;
+    font-size: 15px;
+    padding-right: 37px;
+}
+.nav-footer .link{
+    padding: 0 10px;
+    color: #adacac;
+    font-size: 15px;
+    transition: all .3s ease-in-out;
+}
+.nav-footer .link:hover{
+    color: #fff;
+    text-decoration: underline;
+}
+.nav-footer .line{
+    border-left: 1px solid #9a9898;
+}
+.all-contant-footer{
+    width: 100%;
+    height: 90px;
+    margin-top: 45px;
+}
+.contant-footer{
+    float: left;
+    width: 47%;
+    margin-left: 3%;
+    text-align: left;
+    line-height: 1.5;
+}
+.copy{
+    text-transform: uppercase;
+    font-size: 17px;
+}
+.description{
+    color: #9a9898;
+    font-size: 15px;
+}
+.border{
+    border-left: 1px solid #fff;
+    padding-left: 40px;
+}
+.min{
+    text-transform: lowercase;
+}
+/* End footer  */
+/* ################################################## */
+.clear{
+    clear: both;
+}
